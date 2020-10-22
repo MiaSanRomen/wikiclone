@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAJuRkzQr8vEOBSOSFePL3UgAAAAACAAAAAAAQZgAAAAEAACAAAAAGsI8/Sv0uY9tdBNdqDSHHPrtCjAHkc9OLHyG5QDJ76wAAAAAOgAAAAAIAACAAAABlUah2B8en0w4pFYKKukwPL2pblp+w4xWCOnnoVpIX3SAAAADmXOpO6ACX3OK0MoFPg/ef7xeiZbCxPzce0YdXnX2uZEAAAAB4EFf1eQ1viMJvfm1vA2heOMgK3ZbAGAxdrNLR0+cQfJmGCRO4j0nnqi6ZDrK7H+qBDuVSF29L6u1L9L4y0asf</EncryptedPassword>
+    <_PublishTargetUrl>ftp://wikiclone.somee.com/www.wikiclone.somee.com</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>10/09/2020 12:31:11</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>10/09/2020 12:31:11</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>10/22/2020 11:20:06</publishTime>
+    </File>
+    <File Include="WikiClone.deps.json">
+      <publishTime>10/22/2020 11:20:03</publishTime>
+    </File>
+    <File Include="WikiClone.dll">
+      <publishTime>10/22/2020 11:20:03</publishTime>
+    </File>
+    <File Include="WikiClone.exe">
+      <publishTime>10/22/2020 11:20:03</publishTime>
+    </File>
+    <File Include="WikiClone.pdb">
+      <publishTime>10/22/2020 11:20:03</publishTime>
+    </File>
+    <File Include="WikiClone.runtimeconfig.json">
+      <publishTime>10/22/2020 11:20:03</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
