@@ -1,0 +1,29 @@
+﻿@model IEnumerable<WikiClone.Models.Article>
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+ 
+<html>
+<head>
+    <title>Wiki Clone</title>
+</head>
+<body>
+<h3>Articles</h3>
+<table>
+    <tr>
+        <td><b>Article's name</b></td>
+        <td><b>Description</b></td>
+        <td></td>
+    </tr>
+    @foreach (var article in Model)
+    {
+        <tr>
+            <td>@article.Name</td>
+            <td>@article.Info</td>
+            <td><a href="~/Home/Buy/@article.Id">More info...</a></td>
+        </tr>
+    }
+</table>
+</body>
+</html>
